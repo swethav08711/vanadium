@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="handle.jp2" rel="preconnect" type="image/jp2">
+    <title>Document</title>
+    <style>
+        #main_div {
+            height: 470px;
+            background-color: #FFD9D4;
+            padding-top: 65px;
+            border: 1px solid black;
+        }
+        #houston_div > img {
+            width: 350px;
+            height: 300px;
+            border-radius: 50%;
+            padding-top: 20px;
+            padding-right: 20px;
+           margin-left: 20px;
+        }
+        .blueButton {
+    width: 250px;
+    height: 60px;
+    background-color: #0092FF;
+    border: 0px solid #0092FF;
+    border-radius: 30px;
+    margin-top: 81px;
+    margin-left: 20px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+}
+h2 {
+    color: #044A75;
+    text-align: left;
+    width: 80%;
+    border: 1px solid black;
+    font-size: 50px;
+}
+#houston_div {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+#houston_div > div > h2 + .blueButton {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+    </style>
+</head>
+<body>
+    <div id="main_div">
+    <div id="houston_div">
+        <img src="handle.jpg">
+        <div>
+            <h2>Take your digital<br/>marketing to the next level.</h2>
+            <button class="blueButton" id="testButton">Houston, we have lift-off!</button>
+        </div>
+        </div>
+        <div>
+            
+        </div>
+    </div>
+    <script>
+        
+        document.getElementById("testButton").addEventListener("mouseover", function() {
+            document.getElementById("testButton").style.backgroundColor = "#035b95";
+        });
+    
+        document.getElementById("testButton").addEventListener("mouseout", function() {
+            document.getElementById("testButton").style.backgroundColor = "#0092FF";
+        });
+    </script>
+</body>
+</html>

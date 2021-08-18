@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing</title>
+    <link href="firstDiv.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="main_body" class="flex-container">
+        <div id="prepareForTakeOff">
+            <h1 id="heading_01">Prepare for<br/>takeoff.</h1>
+            <div id="introduction">
+                <div class="yellowLine"></div>
+                
+                <p class="intro_text">Sendinblue is the smartest and most intuitive platform for growing businesses.<br>Thrive digitally as we guide your business with the right marketing and sales tools.</p>
+                
+            </div>
+            <button class="blueButton" id="testButton">Take a free test drive!</button>
+        </div>
+        <div id="prepareForTakeOff_video">
+            <iframe width="600" height="640" src="https://player.vimeo.com/video/427643680?api=1&background=1&mute=0" frameborder="0">
+            </iframe>
+        </div>
+    </div>
+    <script>
+        
+        document.getElementById("testButton").addEventListener("mouseover", function() {
+            document.getElementById("testButton").style.backgroundColor = "#035b95";
+        });
+    
+        document.getElementById("testButton").addEventListener("mouseout", function() {
+            document.getElementById("testButton").style.backgroundColor = "#0092FF";
+        });
+    </script>
+</body>
+</html>
