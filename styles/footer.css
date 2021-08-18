@@ -1,0 +1,75 @@
+#footer_main {
+  width: 80%;
+  margin: auto;
+}
+/* footer1 */
+.footer_firs {
+  width: 100%;
+  display: flex;
+}
+.footer_firs > img {
+  width: 170px;
+}
+.footer_fir1 {
+  margin-left: auto;
+}
+.footer_fir1 > span > img {
+  width: 40px;
+  margin-right: 6px;
+}
+/* footer2 */
+.footer_sec {
+  width: 100%;
+  display: flex;
+  margin-top: 50px;
+  border-bottom: 2px solid grey;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.sec1 > img {
+  width: 100px;
+  margin-right: 40px;
+}
+.sec2 > p {
+  width: 170px;
+  margin-right: 100px;
+  margin-top: 0px;
+  line-height: 22px;
+}
+.sec21 {
+  color: rgb(0, 146, 255);
+}
+.sec3 {
+  margin-right: 150px;
+}
+.sec3 > h3 {
+  margin-top: 0px;
+}
+.sec3 > p {
+  margin-top: -5px;
+}
+.sec4 > h3 {
+  margin-top: 0px;
+}
+.sec4 > p {
+  margin-top: -5px;
+}
+.sec5 {
+  margin-left: auto;
+}
+.sec5 > h3 {
+  margin-top: 0px;
+}
+.sec5 > p {
+  margin-top: -5px;
+}
+/* footer third */
+.footer_thir {
+  display: flex;
+}
+.thir1 {
+  margin-left: 10px;
+}
+.thir2 {
+  margin-left: auto;
+}
