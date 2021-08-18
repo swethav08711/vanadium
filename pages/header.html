@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles/header.css">
+</head>
+<body>
+    <header id="header_main">
+        <div class="header_img">
+            <img src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/logo-color.svg" alt="logo">    
+        </div>
+        <div class="header_sec">
+            <span class="drop_on"> Solutions <img src="https://spng.pngfind.com/pngs/s/22-226586_open-down-arrow-icon-gray-hd-png-download.png" alt=""></span>
+            <span>Pricing</span>
+            <span>Features <img src="https://spng.pngfind.com/pngs/s/22-226586_open-down-arrow-icon-gray-hd-png-download.png" alt=""></span>
+            <span>Resources <img src="https://spng.pngfind.com/pngs/s/22-226586_open-down-arrow-icon-gray-hd-png-download.png" alt=""></span>
+        </div>
+        <div class="header_thir">
+            <span><img style="width: 20px;" src="https://www.sendinblue.com/wp-content/plugins/multisite-language-switcher/flags/us.png" alt=""> EN <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfAwv31sjXzHP5rLaE032lf6JH8CBlCB6W4LQkE1TGTFJqBqm6ybqZzJobi-F9nNLVEKU&usqp=CAU" alt=""></span>
+            <span>Log in</span>
+            <button>sign up free</button>
+        </div>   
+    </header>
+    <!-- drop down -->
+    <!-- first -->
+    <div class="first_con" onclick="x3()">
+        <p>Why Sendinblue?</p>
+        <p>Enterprise</p>
+    </div>
+    <script>
+        document
+            .getElementsByClassName("drop_on")
+            .addEventListener("click", function () {
+                document.querySelector("first_con").style.display = "block";
+            });
+        function x3() {
+            document.querySelector("first_con").style.display = "none";
+        }
+    </script>
+    <!-- second -->
+    <div class="second_con">
+        <div class="sec_ma">
+            <div class="head_sec1">
+                <img src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/icn-menu-email.svg " alt="">
+                <h2>Communicate</h2>
+            </div>
+            <div>
+                <p>Email Marketing</p>
+                <p>SMS Marketing</p>
+                <p>Chat</p>
+                <p>Inbox</p>
+            </div>
+        </div>
+        <div class="sec_ma">
+            <div class="head_sec1">
+                <img src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/icn-menu-marketingautomation.svg" alt="">
+                
+                <h2>Personalize</h2>
+            </div>
+            <div class="head_sec2">
+                <p>CRM</p>
+                <p>Marketing Automation</p>
+                <p>Transactional Email</p>
+            </div>
+        </div>
+        <div class="sec_ma">
+            <div class="head_sec1">
+                <img src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/icn-menu-crm.svg" alt="">
+                <h2>Convert</h2>
+            </div>
+            <div  class="head_sec2">
+                <p>Signup Forms</p>
+                <p>Landing Pages</p>
+                <p>Facebook Ads</p>
+            </div>
+        </div>
+    </div>
+    <!-- third -->
+    <div class="head_thie">
+        <p>Blog</p>
+        <p>Help center</p>
+        <p>Sendinblue Academy</p>
+        <p>Glossary</p>
+        <p>Plugins</p>
+        <p>API docs</p>
+        <p>Status</p>
+        <p>Find an agency</p>
+        <p>Product Updates</p>
+    </div>
+    <!-- forth -->
+    <div class="conti_for">
+        <div class="con_4">
+            <img src="https://www.sendinblue.com/wp-content/plugins/multisite-language-switcher/flags/de.png" alt="">
+            <p>Deutsch</p>
+        </div>
+        <div class="con_4">
+            <img src="https://www.sendinblue.com/wp-content/plugins/multisite-language-switcher/flags/es.png" alt="">
+            <p>Espanol</p>
+        </div>
+        <div class="con_4">
+            <img src="https://www.sendinblue.com/wp-content/plugins/multisite-language-switcher/flags/fr.png" alt="">
+            <p>Francais</p>
+        </div>
+        <div class="con_4">
+            <img src="https://www.sendinblue.com/wp-content/plugins/multisite-language-switcher/flags/it.png" alt="">
+            <p>Italiano</p>
+        </div>
+        <div class="con_4">
+            <img src="https://www.sendinblue.com/wp-content/plugins/multisite-language-switcher/flags/pt.png" alt="">
+            <p>Portugues</p>
+        </div>
+    </div>
+</body>
+</html>
