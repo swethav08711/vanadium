@@ -1,3 +1,22 @@
+/* header */
+.hea_full {
+  background-color: rgb(4, 74, 117);
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+#header_main > div > span {
+  color: white;
+}
+#first_id,
+#second_id,
+#thir_id,
+#fourth_id {
+  margin-top: 61px;
+}
 .pricing_first {
   width: 100%;
   height: 750px;
@@ -30,7 +49,6 @@
 .pricing_second {
   width: 80%;
   margin-top: -480px;
-  position: absolute;
   display: flex;
   margin-left: 160px;
 }
@@ -95,9 +113,7 @@
 .bor {
   border: 0.5px solid grey;
   width: 80%;
-  margin: auto;
-  margin-top: 450px;
-  margin-bottom: 100px;
+  margin: 50px auto;
 }
 .set_tw > h1 {
   font-size: 50px;
@@ -223,8 +239,6 @@
 }
 .pricing_thir {
   display: flex;
-  position: absolute;
-  margin-top: 300px;
   margin-left: 450px;
   font-size: 19px;
   align-items: center;
@@ -247,25 +261,7 @@
   align-items: center;
   justify-content: center;
 }
-/* header */
-.hea_full {
-  background-color: rgb(4, 74, 117);
-  width: 100%;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  top: 0;
-  left: 0;
-  position: fixed;
-}
-#header_main > div > span {
-  color: white;
-}
-#first_id,
-#second_id,
-#thir_id,
-#fourth_id {
-  margin-top: 61px;
-}
+
 /* second part */
 #section_1 {
   display: flex;
