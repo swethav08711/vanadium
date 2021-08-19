@@ -1,0 +1,84 @@
+
+body{
+    background-color: #044a75;
+}
+#logo-img{
+    width: 225px;
+    height: 82px;
+}
+#logo1{
+    width: 21%;
+    height: 60px;
+    margin-top: 50px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+#signUp_body {
+    width: 73.4%;
+    height: fit-content;
+    background-color: white;
+    border: 1px solid black;
+    margin: auto;
+}
+h2 {
+    color: #091E3F;
+    font-size: 27px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: "Publico Text Web";
+}
+h1 {
+    color: #3C4858;
+    margin-top: 2px;
+    font-size: 30px;
+    text-align: center;
+}
+#signUp {
+    padding-left: 40px;
+    padding-top: 30px;
+}
+#signUp >p > label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #3C4858;
+    font-family: Roboto,sans-serif ;
+}
+#companyName , #emailAdd, #yourPassword {
+    margin-top: 5px;
+    margin-bottom: 14px;
+    height: 36px;
+    width: 353px;
+    border-radius: 3px;
+    border: 1px solid #C0CCDA;
+}
+#submit01 {
+    height: 40px;
+    width: 360px;
+    background-color: #007CD9;
+    color: white;
+    border: 0px solid;
+    border-radius: 5px;
+    margin-top: 0px;
+    font-family: 32px;
+}
+#yourPassword {
+    margin-bottom: 10px;
+}
+.icons007 {
+    width: 25px;
+    height: 20px;
+    border-radius: 50%;
+}
+#flex_body {
+    display: flex;
+    flex-direction: row;
+}
+#details_signUp {
+    padding-left: 77px;
+    padding-top: 30px;
+}
+form i {
+    margin-left: -30px;
+    cursor: pointer;
+}

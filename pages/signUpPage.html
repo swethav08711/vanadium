@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="//db.onlinewebfonts.com/c/0d39a4e3c36c494c84e2c38618bfed33?family=Publico+Text+Web" rel="stylesheet" type="text/css"/>
+    <link href="C:\Users\ASUS\Desktop\Project\styles\signUpCss.css" rel="stylesheet">
+</head>
+<body>
+    <div id="logo1">
+        <a href="https://www.sendinblue.com/" class="sendInBlueLogo" rel="home">
+            <img id="logo-img" src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/logo-white.svg"/>
+        </a>
+    </div>
+    <div id="signUp_body">
+        <h2>Create your free account today!</h2>
+        <h1>No contract. No credit card required.</h1>
+        <div id="flex_body">
+            <form id="signUp">
+                <p>
+                    <label for="companyName">Company Name</label><br/>
+                    <input type="text" name="companyName" id="companyName"/><br/>
+                </p>
+                <p>
+                    <label for="emailAdd">Email address</label><br/>
+                    <input type="email" name="emailAdd" id="emailAdd"/><br/>
+                </p>
+                <p>
+                    <label for="yourPassword">Password</label><br/>
+                    <input type="password" name="yourPassword" id="yourPassword"/>
+                    <i class="bi bi-eye-slash" id="togglePassword"></i>
+                </p>
+                <button type="submit" id="submit01">Get Started</button>
+                <hr class="or_hr" data-content="OR" />
+                
+            
+            </form>
+            <div id="details_signUp">
+                <div class="customerSupport">
+                    <img class="icons007" src="headphoneIcon.PNG"/>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+            <script>
+
+                document.getElementById("submit01").addEventListener("mouseover", function() {
+                    document.getElementById("submit01").style.backgroundColor = "#007CD9";
+                });
+            
+                document.getElementById("submit01").addEventListener("mouseout", function() {
+                    document.getElementById("submit01").style.backgroundColor = "#0092FF";
+                });
+
+               /* const togglePassword = document.querySelector('#togglePassword');
+const password = document.querySelector('#password');
+togglePassword.addEventListener('click', function (e) {
+    // toggle the type attribute
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+    // toggle the eye / eye slash icon
+    this.classList.toggle('bi-eye');
+});*/
+            </script>
+        </div>
+    </div>
+</body>
+</html>

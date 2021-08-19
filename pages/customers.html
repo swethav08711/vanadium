@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="C:\Users\ASUS\Desktop\Project\styles\customerStyle.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+        <div id="customer_box">
+            <div id="review-container">
+                <div class="heading_heart">
+                    <h2 class="heart">
+                        Our customers<br />
+                        love us! 😍 </h2>
+                    <div class="circle">
+                        <img id="hoverIcon" class="hoverIcon" src="arrow_icon.jpg"/>
+                    </div>
+                </div>
+                <div class="cust_text">
+                    <p>"I love creating campains with the drag &<br/>drop builder! i just choose a template, then<br/>customize the design how I want."</p>
+                </div>
+                <div class="company">
+                    <img src="https://www.sendinblue.com/wp-content/uploads/2020/03/Calmeta@2x.png"/>
+                    <div class="nameOfCustomer">
+                        <p>Benjamin Latour</p>
+                        <p>Marketer @ CrossFit Calmeta</p>
+                    </div>
+                </div>
+            </div>
+            <div id="image-container">
+                <img src="123.PNG"/>
+            </div>
+            
+        </div>
+        <script>
+            document.getElementById("hoverIcon").addEventListener("mouseover", function() {
+            document.getElementById("hoverIcon").src = "arrow_icon2.jpg";
+            document.getElementById("hoverIcon").setAttribute('class','hoverIcon1');
+        });
+    
+        document.getElementById("hoverIcon").addEventListener("mouseout", function() {
+            document.getElementById("hoverIcon").src = "arrow_icon.jpg";
+            document.getElementById("hoverIcon").setAttribute('class','hoverIcon');
+        });
+        </script>
+</body>
+</html>
