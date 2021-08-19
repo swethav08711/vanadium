@@ -64,16 +64,19 @@ span .drop_on {
   font-size: 18px;
   box-shadow: 7px 10px 10px rgb(238, 236, 236);
   cursor: pointer;
-  display: none;
+  background-color: #fff;
   position: absolute;
+  display: none;
 }
 
-.second_con {
+#second_id {
   width: 45%;
-  display: flex;
   padding: 0px 20px;
   box-shadow: 7px 10px 10px rgb(238, 236, 236);
   cursor: pointer;
+  position: absolute;
+  margin-left: 300px;
+  background-color: #fff;
   display: none;
 }
 .head_sec1 {
@@ -96,6 +99,9 @@ span .drop_on {
   width: 13%;
   box-shadow: 7px 10px 10px rgb(238, 236, 236);
   padding: 8px 30px;
+  position: absolute;
+  margin-left: 750px;
+  background-color: #fff;
   display: none;
 }
 .head_thie > p {
@@ -103,8 +109,11 @@ span .drop_on {
   cursor: pointer;
 }
 .conti_for {
-  width: 13%;
+  width: 10%;
   box-shadow: 7px 10px 10px rgb(238, 236, 236);
+  position: absolute;
+  margin-left: 1050px;
+  background-color: #fff;
   display: none;
 }
 .con_4 {
