@@ -1,6 +1,7 @@
 #main_body {
   width: 100%;
-  padding-left: 200px;
+  margin: auto;
+  padding-left: -9px;
   background-color: white;
 }
 #heading_01 {
