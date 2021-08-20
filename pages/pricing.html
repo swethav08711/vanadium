@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <!--style links -->
+
     <link rel="stylesheet" href="/styles/pricing.css" />
+    <link rel="stylesheet" href="/styles/houstonStyle.css" />
     <link rel="stylesheet" href="/styles/footer.css" />
     <link rel="stylesheet" href="/styles/header.css" />
   </head>
@@ -14,7 +18,7 @@
     <main class="hea_full">
       <header id="header_main">
         <div class="header_img">
-          <img
+          <img onclick="(location.href = 'index.html')"
             src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/logo-white.svg"
             alt="logo"
           />
@@ -481,7 +485,7 @@
       <div class="set_tw">
         <h1>All features</h1>
       </div>
-      <div></div>
+      <!-- <div></div> -->
     </section>
     <!-- 2nd section starts -->
     <section>
@@ -905,6 +909,34 @@
       </div>
     </div>
     <!-- end of body -->
+    <!-- above footer -->
+    <div id="main_div">
+      <div id="houston_div">
+        <img src="handle.jpg" />
+        <div id="text-container">
+          <h2>Take your digital<br />marketing to the next level!</h2>
+          <button class="blueButton" id="testButton">
+            Houston, we have lift-off!
+          </button>
+        </div>
+      </div>
+      <div></div>
+    </div>
+    <script>
+      document
+        .getElementById("testButton")
+        .addEventListener("mouseover", function () {
+          document.getElementById("testButton").style.backgroundColor =
+            "#035b95";
+        });
+
+      document
+        .getElementById("testButton")
+        .addEventListener("mouseout", function () {
+          document.getElementById("testButton").style.backgroundColor =
+            "#0092FF";
+        });
+    </script>
     <!-- footer -->
     <div id="footer_main">
       <div class="footer_firs">

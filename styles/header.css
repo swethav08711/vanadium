@@ -2,6 +2,22 @@
 * {
   padding: 0;
 }
+.hea_full1 {
+  background-color: white;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  top: 0;
+  left: 0;
+  position: fixed;
+  box-shadow: 0px 2px 9px rgb(161, 157, 157);
+}
+#first_id,
+#second_id,
+#thir_id,
+#fourth_id {
+  margin-top: 61px;
+}
 #header_main {
   display: flex;
   width: 80%;
