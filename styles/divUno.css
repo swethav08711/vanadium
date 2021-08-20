@@ -57,12 +57,10 @@
     margin-top: 90px;
     display: flex;
     flex-direction: row;
-    border: 1px solid black;
 }
 .flex_dropdown > div {
     width: 50%;
     height: 100%;
-    border: 1px solid black;
 }
 @media only screen and (min-width: 992px) {
     #gotYou {
@@ -194,7 +192,6 @@
         margin-left: 45%;
     }
     .pedal_div > img  + h2 {
-        border: 1px solid black;
         width: 60%;
         align-items: center;
         margin: auto;
@@ -502,12 +499,10 @@
     margin: auto;
     display: grid;
     grid-template-columns: auto auto auto;
-    border: 1px solid black;
 }
 .colourful_boxes > div {
     height: 820px;
     width: 373px;
-    border: 1px solid black;;
 }
 #zen {
     height: fit-content;
@@ -557,7 +552,6 @@
     width: 250px;
     height: 450px;
     margin-left: 20px;
-    border: 1px solid black;
 }
 .para {
     font-size: 18px;
@@ -570,7 +564,6 @@
     height: 150px;
     margin: auto;
     margin-top: 20px;
-    border: 1px solid black;
 }
 .head {
     width: 150px;
@@ -627,7 +620,6 @@
 .nameOfCus {
     margin-top: 10px;
     margin-left: 10px;
-    border: 1px solid black;
 }
 .nameOfCus > p:first-child{
     font-size: 18px;
