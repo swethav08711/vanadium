@@ -50,18 +50,7 @@
     font-size: 17px;
     font-weight: bold;
 }
-.flex_dropdown {
-    width: 80%;
-    height: 525px;
-    margin: auto;
-    margin-top: 90px;
-    display: flex;
-    flex-direction: row;
-}
-.flex_dropdown > div {
-    width: 50%;
-    height: 100%;
-}
+
 @media only screen and (min-width: 992px) {
     #gotYou {
         width: 55%;
@@ -135,6 +124,13 @@
           display: flex;
           flex-direction: row;
       }
+      .colourful_boxes {
+        width: 90%;
+        height: 1640px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
 }
 @media only screen and (max-width: 992px) {
     #heading_001 {
@@ -199,6 +195,13 @@
     }
     .blueButton {
         margin-left: 35%;
+    }
+    .colourful_boxes {
+        width: 100%;
+        height: 1640px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
     }
 } 
 @media only screen and (max-width: 786px) {
@@ -273,7 +276,7 @@
             padding-top: 20px;
             padding-right: 20px;
             position: relative;
-            right: -80px;
+            right: -150px;
         }
         #text-container > h2 {
             color: #091E3F;
@@ -282,7 +285,13 @@
             line-height: 35px;
             font-size: 35px;
             margin-bottom: 22px;
+            position: relative;
+            right: -90px;
             }
+        .cl {
+            position: relative;
+            left: -60px;
+        }
         #houston_div > div > h2 + .blueButton {
             margin-top: 10px;
             margin-left: 0p;
@@ -311,6 +320,16 @@
         .pink_div {
             display: flex;
             flex-direction: column;
+        }
+        .colourful_boxes {
+            width: 100%;
+            height: 1640px;
+            margin: auto;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        #zen {
+            margin-top: 800px
         }
 }
 @media only screen and (max-width: 595px) {
@@ -493,16 +512,10 @@
     width: 50%;
     margin: auto;
 }
-.colourful_boxes {
-    width: 90%;
-    height: 1640px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: auto auto auto;
-}
-.colourful_boxes > div {
+
+.colourful_boxes > div, .six {
     height: 820px;
-    width: 373px;
+    width: 100%;
 }
 #zen {
     height: fit-content;
@@ -596,7 +609,13 @@
 .four {
     background-color: #FFD201;
 }
-.two > .para ,.two > .details > .nameOfCus > p,.three > .para ,.three > .details > .nameOfCus > p{
+.five {
+    background-color: #091E3F;
+}
+.six {
+    background-color: #EEECEB;
+}
+.two > .para ,.two > .details > .nameOfCus > p,.three > .para ,.three > .details > .nameOfCus > p,.five > .para ,.five > .details > .nameOfCus > p{
     color: white;
 }
 .colourful_boxes > div > .head + img {
