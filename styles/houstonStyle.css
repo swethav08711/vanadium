@@ -1,5 +1,5 @@
 #main_div {
-  height: 386px;
+  height: fit-content;
   width: auto;
   background-color: #ffd9d4;
   padding-top: 65px;
@@ -44,6 +44,7 @@
     flex-direction: row;
     width: 95%;
     margin: auto;
+    height: fit-content;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -52,6 +53,7 @@
     flex-direction: column;
     width: 100%;
     margin: auto;
+    height: fit-content;
   }
   #houston_div > img {
     width: 37%;
