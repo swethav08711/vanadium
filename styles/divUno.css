@@ -133,6 +133,9 @@
     #pink_div {
         width: 71.4%;
     }
+    .heading_004{
+        font-size: 55px;
+    }
 }
 @media only screen and (max-width: 992px) {
   #heading_001 {
@@ -170,10 +173,7 @@
     flex-direction: column;
   }
   #pink_div {
-    display: flex;
-    flex-direction: column;
-    padding-right: 0px;
-    padding-left: 0px;
+    width: 100%;
   }
   .text_pink {
     width: 100%;
@@ -205,15 +205,15 @@
         display: grid;
         grid-template-columns: auto auto auto;
     }
-    #pink_div {
-        width: 100%;
+    
+    #pink_div > .pink_img {
+        margin-left: 100px;
     }
-    .pink_img {
-        margin-top: 80px;
-        position: relative;
-        left: -99px;
-        z-index: 99;
-        width: 50%;
+    #pink_div > .pink_img > img {
+        width: 400px;
+    }
+    .heading_004{
+        font-size: 55px;
     }
 } 
 @media only screen and (max-width: 786px) {
@@ -261,7 +261,7 @@
   }
   .build_image {
     width: 55%;
-    margin-left: 20%;
+    margin-left: 5%;
   }
   .grow-container {
     display: flex;
@@ -328,9 +328,27 @@
   .blueButton {
     margin-left: 25%;
   }
-  .pink_div {
-    display: flex;
-    flex-direction: column;
+  #pink_div {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #pink_div > .pink_img > img {
+    margin-left: 170px;
+  }
+  #pink_div > .text_pink {
+      margin-left: 60px;
+      width: 90%;
+  }
+  #pink_div > .text_pink > p {
+      text-align: center;
+  }
+  #pink_div > .text_pink > .link_flex {
+      width: 40%;
+      margin: auto;
+  }
+.heading_004 {
+      font-size: 50px;
+      text-align: center;
   }
   .colourful_boxes {
     width: 100%;
@@ -358,9 +376,6 @@
         width: 70%;
         margin-top: 10%;
         margin: auto;
-    }
-    .build_image {
-        border: 1px solid black;
     }
     growfaster_image {
         padding-left: 0px;
@@ -401,7 +416,28 @@
     #zen {
         margin-top: 3390px
     }
-  
+    .heading_004 {
+        font-size: 30px;
+        text-align: left;
+    }
+    #pink_div {
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      #pink_div > .pink_img > img {
+        margin-left: 20px;
+      }
+      #pink_div > .text_pink {
+          margin-left: 10px;
+          width: 90%;
+      }
+      #pink_div > .text_pink > p {
+          text-align: left;
+      }
+      #pink_div > .text_pink > .link_flex {
+          width: 50%;
+          margin-left: 10px;
+      }
 }
 .intro_text {
   font-size: 20px;
@@ -425,9 +461,7 @@
     border-left: 3px solid #FFD201;
 }
 .heading_004{
-    font-size: 55px;
     line-height: 50px;
-    border: 1px solid black;
     margin-left: 20px;
     margin-top: 0px;
     word-wrap: break-word;
@@ -441,7 +475,6 @@
 .text_pink {
     width: 53%;
     margin-top: 80px;
-    border: 1px solid black;
     position: relative;
     left: -20px;
     z-index: 99;
@@ -483,7 +516,7 @@
 }
 .pink_img {
   margin-top: 80px;
-  /* position: relative; */
+  position: relative; 
   left: -99px;
   z-index: 99;
   width: 50%;
@@ -566,7 +599,7 @@
   padding-left: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  /* position: relative; */
+   position: relative; 
   left: -20px;
 }
 #text-container > h2 {
@@ -578,7 +611,7 @@
   margin-bottom: 22px;
 }
 #houston_div > div > button {
-  /* position: relative; */
+   position: relative; 
   top: -10px;
   margin-left: 5px;
 }
