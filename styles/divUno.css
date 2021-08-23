@@ -131,6 +131,9 @@
         display: grid;
         grid-template-columns: auto auto auto;
     }
+    #pink_div {
+        width: 71.4%;
+    }
 }
 @media only screen and (max-width: 992px) {
     #heading_001 {
@@ -202,6 +205,16 @@
         margin: auto;
         display: grid;
         grid-template-columns: auto auto auto;
+    }
+    #pink_div {
+        width: 100%;
+    }
+    .pink_img {
+        margin-top: 80px;
+        position: relative;
+        left: -99px;
+        z-index: 99;
+        width: 50%;
     }
 } 
 @media only screen and (max-width: 786px) {
@@ -348,6 +361,9 @@
         margin-top: 10%;
         margin: auto;
     }
+    .build_image {
+        border: 1px solid black;
+    }
     growfaster_image {
         padding-left: 0px;
     }
@@ -377,7 +393,17 @@
         display: flex;
         flex-direction: column;
     }
-
+    .colourful_boxes {
+        width: 100%;
+        height: 1640px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    #zen {
+        margin-top: 3390px
+    }
+  
 }
 .intro_text {
     font-size: 20px;
@@ -403,6 +429,7 @@
 .heading_004{
     font-size: 55px;
     line-height: 50px;
+    border: 1px solid black;
     margin-left: 20px;
     margin-top: 0px;
     word-wrap: break-word;
@@ -414,8 +441,9 @@
     margin-top: 85px;
 }
 .text_pink {
-    width: 50%;
+    width: 53%;
     margin-top: 80px;
+    border: 1px solid black;
     position: relative;
     left: -20px;
     z-index: 99;
@@ -444,7 +472,7 @@
     border-radius: 50%;
 }
 #pink_div {
-    width: 70%;
+    
     height: fit-content;
     background-color: #FCD6D1;
     margin: auto;

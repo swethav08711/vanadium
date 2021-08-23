@@ -6,6 +6,11 @@
     display: flex;
     flex-direction: row;
 }
+@media only screen and (max-width: 992px) {
+    .flex_dropdown {
+        width: 100%;
+    }
+}
 .flexBox_1 {
     width: 45%;
     height: 100%;
@@ -15,8 +20,8 @@
     height: 100%;
 }
 .flex_img > img {
-    width: 550px;
-    height: 623px;
+    width: 100%;
+    height: 100%;
 }
 .uno,.dos,.tres,.cuatro,.cinco {
    display: flex;
