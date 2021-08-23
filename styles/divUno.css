@@ -458,7 +458,7 @@
   line-height: 28px;
 }
 .yellowLine {
-    border-left: 3px solid #FFD201;
+  border-left: 3px solid #ffd201;
 }
 .heading_004{
     line-height: 50px;
@@ -503,16 +503,15 @@
   border-radius: 50%;
 }
 #pink_div {
-    
-    height: fit-content;
-    background-color: #FCD6D1;
-    margin: auto;
-    padding-right: 20px;
-    margin-top: 300px;
-    padding-bottom: 90px;
-    margin-bottom: 200px;
-    display: flex;
-    flex-direction: row;
+  height: fit-content;
+  background-color: #fcd6d1;
+  margin: auto;
+  padding-right: 20px;
+  margin-top: 300px;
+  padding-bottom: 90px;
+  margin-bottom: 200px;
+  display: flex;
+  flex-direction: row;
 }
 .pink_img {
   margin-top: 80px;
