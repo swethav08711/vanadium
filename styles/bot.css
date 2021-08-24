@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#line{
+    width: 80%;
+    background-color: rgb(153, 147, 147);
+    
+    border: 0.5px solid rgb(223, 215, 215);
+    
+    margin: 83px auto ;
+    padding: 0px 0px;
+}
+.text{
+    display: flex;
+   
+    
+}
+.text img{
+    height: 300px;
+    margin-left: 169px;
+
+   
+
+
+}
+h2{
+    font-size: 3rem;
+    margin-top: 20px;
+    color: #091e3f;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 400;
+}
+.images {
+    display: flex;
+    width: 33%;
+    margin: -60px auto ;
+
+}
+.images img{
+    width: 80px;
+    padding: 0px 0px;
+    margin: -80px 23px;
+}
+p{
+    text-align: center;
+    color: #0092ff;
+    margin-top: 150px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    animation-name: move;
+}
+p:hover{
+    margin-left: 25px;
+    
+}
