@@ -14,7 +14,11 @@ Sendinblue is a website used by businesses to build and grow relationships with 
 2. Flex
 3. css_box Model
 
-## JS
-1. DOM-Events & Attributes
-2. 
+## DOM-Events & Attributes
+1. addEventListener()
+2. getElementById()
+3. getElementsByClassName()
+4. onclick()
+ 
+ 
 
