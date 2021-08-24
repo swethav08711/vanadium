@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>All Your Digital Marketing Tools in One Place - Sendinblue</title>
 
     <!--external link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -24,8 +24,6 @@
     <link rel="stylesheet" href="/styles/footer.css" />
   </head>
   <body>
-    <!-- header starts -->
-
     <main class="hea_full1">
       <header id="header_main">
         <div class="header_img">
@@ -42,7 +40,7 @@
               alt=""
           /></span>
           <span onclick="(location.href='pricing.html')">Pricing</span>
-          <span id="sec_id"
+          <span id="sec_id" onclick="(location.href='features.html')"
             >Features
             <img
               src="https://www.freeiconspng.com/uploads/drop-down-arrow-icon-2.png"
@@ -66,123 +64,127 @@
               src="https://www.freeiconspng.com/uploads/drop-down-arrow-icon-2.png"
               alt=""
           /></span>
-          <span>Log in</span>
-          <button>sign up free</button>
+          <span onclick="(location.href='login_Form.html')">Log in</span>
+          <button onclick="(location.href='signUpPage.html')">
+            sign up free
+          </button>
         </div>
       </header>
     </main>
     <!-- drop down -->
     <!-- first -->
-    <div class="first_con" id="first_id">
-      <p>Why Sendinblue?</p>
-      <p>Enterprise</p>
-    </div>
-    <script>
-      var a = 0;
-      document
-        .getElementById("drop_id")
-        .addEventListener("mouseover", function () {
-          a++;
-          if (a % 2 == 1) {
-            document.getElementById("first_id").style.display = "block";
-          } else {
-            document.getElementById("first_id").style.display = "none";
-          }
-        });
-      // document.getElementById("drop_id")
-      //         .addEventListener("mouseout", function () {
-      //     document.getElementById("first_id").style.display = "none";
+    <div class="drop_head_main">
+      <div class="first_con" id="first_id">
+        <p onclick="(location.href='whySendInBlue.html')">Why Sendinblue?</p>
+        <p>Enterprise</p>
+      </div>
+      <script>
+        var a = 0;
+        document
+          .getElementById("drop_id")
+          .addEventListener("mouseover", function () {
+            a++;
+            if (a % 2 == 1) {
+              document.getElementById("first_id").style.display = "block";
+            } else {
+              document.getElementById("first_id").style.display = "none";
+            }
+          });
+        // document.getElementById("drop_id")
+        //         .addEventListener("mouseout", function () {
+        //     document.getElementById("first_id").style.display = "none";
 
-      //         });
-      // function x3() {
-      //     document.querySelector("first_con").style.display = "none";
-      // }
-    </script>
-    <!-- second -->
-    <div class="second_con" id="second_id">
-      <div class="sec_ma">
-        <div class="head_sec1">
-          <img
-            src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/icn-menu-email.svg "
-            alt=""
-          />
-          <h2>Communicate</h2>
+        //         });
+        // function x3() {
+        //     document.querySelector("first_con").style.display = "none";
+        // }
+      </script>
+      <!-- second -->
+      <div class="second_con" id="second_id">
+        <div class="sec_ma">
+          <div class="head_sec1">
+            <img
+              src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/icn-menu-email.svg "
+              alt=""
+            />
+            <h2>Communicate</h2>
+          </div>
+          <div>
+            <p>Email Marketing</p>
+            <p>SMS Marketing</p>
+            <p>Chat</p>
+            <p>Inbox</p>
+          </div>
         </div>
-        <div>
-          <p>Email Marketing</p>
-          <p>SMS Marketing</p>
-          <p>Chat</p>
-          <p>Inbox</p>
-        </div>
-      </div>
-      <div class="sec_ma">
-        <div class="head_sec1">
-          <img
-            src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/icn-menu-marketingautomation.svg"
-            alt=""
-          />
+        <div class="sec_ma">
+          <div class="head_sec1">
+            <img
+              src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/icn-menu-marketingautomation.svg"
+              alt=""
+            />
 
-          <h2>Personalize</h2>
+            <h2>Personalize</h2>
+          </div>
+          <div class="head_sec2">
+            <p>CRM</p>
+            <p>Marketing Automation</p>
+            <p>Transactional Email</p>
+          </div>
         </div>
-        <div class="head_sec2">
-          <p>CRM</p>
-          <p>Marketing Automation</p>
-          <p>Transactional Email</p>
+        <div class="sec_ma">
+          <div class="head_sec1">
+            <img
+              src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/icn-menu-crm.svg"
+              alt=""
+            />
+            <h2>Convert</h2>
+          </div>
+          <div class="head_sec2">
+            <p>Signup Forms</p>
+            <p>Landing Pages</p>
+            <p>Facebook Ads</p>
+          </div>
         </div>
       </div>
-      <div class="sec_ma">
-        <div class="head_sec1">
-          <img
-            src="https://www.sendinblue.com/wp-content/themes/sendinblue2019/assets/images/common/icn-menu-crm.svg"
-            alt=""
-          />
-          <h2>Convert</h2>
-        </div>
-        <div class="head_sec2">
-          <p>Signup Forms</p>
-          <p>Landing Pages</p>
-          <p>Facebook Ads</p>
-        </div>
+      <script>
+        var b = 0;
+        document
+          .getElementById("sec_id")
+          .addEventListener("mouseover", function () {
+            b++;
+            if (b % 2 == 1) {
+              document.getElementById("second_id").style.display = "flex";
+            } else {
+              document.getElementById("second_id").style.display = "none";
+            }
+          });
+      </script>
+      <!-- third -->
+      <div class="head_thie" id="thir_id">
+        <p>Blog</p>
+        <p>Help center</p>
+        <p>Sendinblue Academy</p>
+        <p>Glossary</p>
+        <p>Plugins</p>
+        <p>API docs</p>
+        <p>Status</p>
+        <p>Find an agency</p>
+        <p>Product Updates</p>
       </div>
+      <script>
+        var c = 0;
+        document
+          .getElementById("thi_id")
+          .addEventListener("mouseover", function () {
+            c++;
+            if (c % 2 == 1) {
+              document.getElementById("thir_id").style.display = "block";
+            } else {
+              document.getElementById("thir_id").style.display = "none";
+            }
+          });
+      </script>
     </div>
-    <script>
-      var b = 0;
-      document
-        .getElementById("sec_id")
-        .addEventListener("mouseover", function () {
-          b++;
-          if (b % 2 == 1) {
-            document.getElementById("second_id").style.display = "flex";
-          } else {
-            document.getElementById("second_id").style.display = "none";
-          }
-        });
-    </script>
-    <!-- third -->
-    <div class="head_thie" id="thir_id">
-      <p>Blog</p>
-      <p>Help center</p>
-      <p>Sendinblue Academy</p>
-      <p>Glossary</p>
-      <p>Plugins</p>
-      <p>API docs</p>
-      <p>Status</p>
-      <p>Find an agency</p>
-      <p>Product Updates</p>
-    </div>
-    <script>
-      var c = 0;
-      document
-        .getElementById("thi_id")
-        .addEventListener("mouseover", function () {
-          c++;
-          if (c % 2 == 1) {
-            document.getElementById("thir_id").style.display = "block";
-          } else {
-            document.getElementById("thir_id").style.display = "none";
-          }
-        });
-    </script>
     <!-- forth -->
     <div class="conti_for" id="fourth_id">
       <div class="con_4">
@@ -218,7 +220,7 @@
           src="https://www.sendinblue.com/wp-content/plugins/multisite-language-switcher/flags/pt.png"
           alt=""
         />
-        <p>Portugues</p>
+        <p>Portuguese</p>
       </div>
     </div>
     <script>
@@ -236,12 +238,10 @@
     </script>
     <!-- header ends -->
     <!-- body section 1 starts -->
-    <div id="main_body" class="flex-container">
+    <div id="main_body" class="flex-container complete_sec1">
       <div id="prepareForTakeOff">
         <h1 id="heading_01">Prepare for<br />takeoff.</h1>
         <div id="introduction">
-          <div class="yellowLine"></div>
-
           <p class="intro_text">
             Sendinblue is the smartest and most intuitive platform for growing
             businesses.<br />Thrive digitally as we guide your business with the
@@ -679,7 +679,7 @@
           /></span>
         </div>
       </div>
-      <!-- footer -->
+
       <div class="footer_sec">
         <div class="sec1">
           <img
@@ -693,7 +693,7 @@
             help you grow your business through building stronger customer
             relationships.
           </p>
-          <p class="sec21">Read more</p>
+          <p>Read more</p>
         </div>
         <div class="sec3">
           <h3>Solutions</h3>
