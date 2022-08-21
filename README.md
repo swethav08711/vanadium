@@ -1,3 +1,6 @@
+<h1> Live Link </h1>
+<p>https://zealous-fermi-93bab9.netlify.app/</p>
+
 # sendinblue
 Sendinblue is a website used by businesses to build and grow relationships with their customers. We have tried to clone the website using HTML5, CSS3, and Javascript DOM and some wonderful teammates. This was our first collaborative Project at MASAI, to which we're grateful for.
 
